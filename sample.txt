@@ -1,0 +1,26 @@
+Algorithms-I Term Project
+Topic: Huffman Encoding
+
+Abstract:
+
+Data compression is a crucial tool in today's world where there exists,
+increasing amounts of data that need to be transferred losslessly in 
+short intervals of time. Some compression techniques encode data to a 
+form where its size is reduced, transfer this compressed data and later
+retrieve the original data using decompression techniques. 
+When there is considerable difference in the frequencies of different 
+symbols in a string, variable length codes can be assigned to the symbols 
+based on their relative frequencies. By assigning shorter codes for symbols 
+with a higher frequency and longer codes for thsoe with a lower frequency 
+can then lead to compression of the text. More the variation in the relative 
+frequencies of symbols, the more advantageous it is to use variable length 
+codes for reducing the size of encoded string.
+Since the codes are of variable length, it is necessary that no code is a 
+prefix of another so that the codes can be properly decode. Such codes 
+are called prefix code (sometimes called "prefix-free codes", that is, the 
+code representing some particular symbol is never a prefix of the code
+representing any other symbol). 
+Huffman's algorithm is one such algorithm that computes 'prefix-free codes'
+for symbols that can be conveniently accessed by means of a tree called the 
+Huffman tree. In our project, we seek to implement, analyse and discuss the 
+algorithm.
