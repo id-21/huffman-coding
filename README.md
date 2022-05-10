@@ -1,5 +1,5 @@
 # huffman-coding
-To run the program, open up the terminal in the folder conatining the file and type:
+To run the program, open up the terminal in the folder containing the file and type:
 'g++ huffmanEncoding.cpp'
 
 On the prompt, enter the text you wish to encode. The program can read whitespaces
